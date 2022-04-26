@@ -18,7 +18,7 @@ const reporterSchema=mongoose.Schema({
             if(!validator.isEmail(value))
 
             throw new Error("Not Valid");
-        }  //value is the email value
+        } 
     },
     age:{
         type:Number,
